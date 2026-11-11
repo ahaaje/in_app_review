@@ -1,1 +1,6 @@
 rootProject.name = 'in_app_review'
+
+plugins {
+    id "dev.flutter.flutter-plugin-loader" version "1.0.0"
+    id "com.android.library" version "<AGP>" apply false
+}
